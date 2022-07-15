@@ -1,0 +1,18 @@
+server:
+  port: ${API_PORT:8080}
+  error:
+    include-stacktrace: never
+  excluded-cors-origins: ${CORS_EXCLUDED:*}
+
+spring:
+  main:
+    banner-mode: off
+
+swagger:
+  service:
+    title: "Rock Paper Scissor Api"
+    description: "Rock Paper Scissor Api"
+    version: "v1"
+    contact:
+      name: "Alexander Perez"
+      email: "alextase89@gmail.com"

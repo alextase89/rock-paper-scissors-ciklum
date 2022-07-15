@@ -1,0 +1,32 @@
+
+.game-container {
+  font-size: 1.3em !important;
+  margin-top: 40px;
+
+  .play-selection {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .play-controls{
+    margin-top: 55px;
+
+    button {
+      margin-right: 35px;
+      font-size: 1em !important;
+    }
+  }
+
+  .rounds-table {
+    h5 {
+      text-align: left;
+    }
+  }
+
+  .global-statistics {
+    h5 {
+      text-align: left;
+    }
+  }
+}
